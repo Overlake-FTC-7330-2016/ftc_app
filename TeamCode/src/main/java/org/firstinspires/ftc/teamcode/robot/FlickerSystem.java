@@ -54,6 +54,7 @@ public class FlickerSystem {
     }
 
     public void shoot() {
+
         flicker.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         flicker.setTargetPosition(flicker.getCurrentPosition() + revolutionsToTics(1.1));
         flicker.setPower(FLICKER_POWER);
