@@ -21,7 +21,7 @@ public class LineFollowingSystem
     public ColorSensor lineColorSensor;
 
     /* local OpMode members. */
-    HardwareMap hwMap           =  null;
+    HardwareMap hwMap =  null;
 
     /* Constructor */
     public LineFollowingSystem(){
